@@ -213,9 +213,6 @@ body {
     animation: fade-in 0.8s ease-in-out both 0.5s;
 }
 
-.post_link {
-    text-align: right;
-}
 
 .absolute-bg {
     position: absolute;
@@ -239,9 +236,58 @@ footer {
     font-weight: bold;
 }
 
-aside {
+.post_link {
     float: right;
+    text-align: right;
+}
 
+.sidebar {
+    margin-top: 20%;
+	float:right;
+    width:275px;
+}
+ 
+.sidebar .widget {
+	padding:25px;
+	margin:0 0 25px;
+	background:#fff;
+	border-bottom: 2px solid #fff;
+	transition: all 0.5s ease;
+}
+ 
+.sidebar .widget:hover {
+	border-bottom: 2px solid #A9B1B3;
+}
+ 
+.sidebar .widget h2 {
+	padding:0;
+	margin:0 0 15px;
+	color:#A9B1B3;
+	font-size: 18px;
+	font-weight:800;
+	text-transform: uppercase;
+}
+
+.sidebar .widget pre {
+    display: block;
+    overflow: auto;
+}
+ 
+.sidebar .widget p {
+    font-size: 14px;
+}
+ 
+.sidebar .widget p:last-child {
+	margin:0;
+}
+
+@media screen and (max-width: 1000px)
+{
+    #content,
+    .sidebar 
+    {
+        width: 100%;
+    }
 }
 
 
