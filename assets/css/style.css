@@ -62,7 +62,6 @@ body {
 @media (min-width: 20em) {
     body {
         font-size: 102.5%;
-
     }
 }
 
@@ -237,8 +236,8 @@ footer {
 }
 
 .post_link {
-    float: right;
-    text-align: right;
+    margin-bottom: 15px;
+    text-align: center;
 }
 
 .sidebar {
